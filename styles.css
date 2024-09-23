@@ -1,0 +1,71 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #2e2e2e;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  background-color: #1d1d1d;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  text-align: center;
+  width: 300px;
+}
+
+h1 {
+  font-size: 24px;
+  color: #fff;
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+  margin: 10px 0 5px;
+  color: #fff;
+}
+
+input[type="number"] {
+  width: calc(100% - 22px); /* Ajusta a largura para o padding */
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  background-color: #333;
+  color: #fff;
+  font-size: 16px;
+  box-sizing: border-box; /* Inclui o padding e border na largura */
+}
+
+button {
+  background-color: #088fce;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s;
+  margin-top: 15px; /* Espaçamento acima do botão */
+}
+
+button:hover {
+  background-color: #00c3ff;
+  color: #1d1d1d;
+}
+
+#result {
+  margin-top: 20px;
+  font-size: 18px;
+  color: #fff;
+  background-color: #333;
+  padding: 10px;
+  border-radius: 4px;
+  text-align: left; /* Alinha o texto à esquerda */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
