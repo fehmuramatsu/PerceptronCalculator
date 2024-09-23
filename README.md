@@ -17,7 +17,7 @@ The calculator enables users to input weights and a threshold to calculate the p
 - **Activation Function**: It uses a step activation function to determine the output.
 - **Training**: The `fit` method adjusts the weights based on the input data and the expected outputs for the AND operation. Training continues until errors are eliminated or the maximum number of epochs is reached.
 
-# PORTUGUÊS
+# PORTUGUÊS-BR
 
 Este projeto é uma calculadora de perceptron desenvolvida como parte da disciplina de Inteligência Artificial. Utilizando HTML, CSS e JavaScript, a aplicação permite simular o funcionamento de um perceptron, ajudando na compreensão dos conceitos fundamentais em redes neurais.
 
